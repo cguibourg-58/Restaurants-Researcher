@@ -348,7 +348,8 @@ export default {
             changeItemPerPage() {
                 //console.log("value from slider : "+this.value)
                 //itemParPage = this.value;
-                console.log("slide ok itemParPage="+this.itemParPage)
+                console.log("slide ok itemParPage="+this.itemParPage);
+                this.itemParPage = parseInt(this.itemParPage);
                 this.getRestaurantsFromServer(true, true);
             },
             updateFilter(/*event*/) {

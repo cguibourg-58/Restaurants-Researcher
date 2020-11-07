@@ -12,18 +12,14 @@
         </md-card>
         <md-card id="zoneDAffichage">
             <h2>Où sommes-nous ?</h2>
-            <gmap-map :center="{lat: restaurant.address.coord[1], lng: restaurant.address.coord[0]}" :zoom="12" style="width:60%; height:200px;">
+            <gmap-map :center="{lat: restaurant.address.coord[1], lng: restaurant.address.coord[0]}" :zoom="12" style="width:30%;height:400px;">
                 <gmap-marker :position="{lat: restaurant.address.coord[1], lng: restaurant.address.coord[0]}"></gmap-marker>
             </gmap-map>
         </md-card>
-    <!--<gmaps-map>
-        <gmaps-marker :position="{ lat: -27, lng: 153 }" />
-    </gmaps-map>-->
     </div>
 </template>
 
 <script>
-//import { gmapsMap,gmapsMarker} from 'x5-gmaps'
 export default {
     name: 'RestaurantDetail',
     props: {
