@@ -37,6 +37,6 @@ Cette application a été réalisée en javascript avec VueJS.
     - la balise gmap-map qui permet d'afficher la map et de centrer la map sur une position donnée.
     - la balise gmap-marker qui permet d'ajouter des repères sur la map.
 
-Dans cette application cette map affiche un repairs qui correspond à la position géographique du restaurant.
+Dans cette application cette map affiche un repères qui correspond à la position géographique du restaurant.
 
 - Lorsqu'on régle le nombre de restaurant par page, un "md-model-spiner" change d'affichage en fonction du nombre de restaurant par page sélectionné.
