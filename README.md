@@ -5,17 +5,13 @@ Réalisé par Clément Guibourg dans le cadre d'un devoir d'étude
 
 ## Comment lancer l'application
 
-1/ Ouvrir un terminal et lancer la commande suivante :
-    - mongod
+1/ Ouvrir un terminal et lancer la commande suivante : mongod
 
-2/ Aller dans le répertoire serveurNodeMongoRESTful et lancer la commande suivante :
-    - node .\serverCrudWithMongo.js
+2/ Aller dans le répertoire serveurNodeMongoRESTful et lancer la commande suivante : node .\serverCrudWithMongo.js
 
-3/ Aller dans le répertoire client et lancer la commande suivante :
-    - npm i
+3/ Aller dans le répertoire client et lancer la commande suivante : npm i
 
-4/ Aller dans le répertoire client et lancer la commande suivante :
-    - npm run serve
+4/ Aller dans le répertoire client et lancer la commande suivante : npm run serve
 
 
 ## A propos de l'application
