@@ -33,7 +33,7 @@ Cette application a été réalisée en javascript avec VueJS.
 
 - Pour afficher les données détaillées, nous passons par un routeur (routes.js), qui prend en paramêtre l'identifiant du restaurant, et qui nous envoie sur une vue RestaurantDetail qui fait un nouvel appel vers l'API pour avoir les données détaillées du restaurant en passant l'identifiant en paramètre dans l'appel.
 
-- La map (Google Map) est gérée avec vue2-google-maps qui nous permet de réaliser les choses suivantes :
+- La map (Google Map) est gérée avec vue-google-maps qui nous permet de réaliser les choses suivantes :
     - la balise gmap-map qui permet de déterminer la position de la map
     - la balise gmap-marker qui permet d'ajouter des repairs sur la map
     Dans cette application cette map affiche un repairs qui correspond à la position géographique du restaurant.
