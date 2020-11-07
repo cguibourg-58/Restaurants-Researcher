@@ -14,7 +14,6 @@ import * as VueGoogleMaps from 'vue2-google-maps';
 Vue.use(VueMaterial);
 Vue.use(VueFirestore);
 Vue.use(VueRouter);
-//Vue.use(x5GMaps, 'AIzaSyB99RnGMyLlfO33OUPvru5HRu4JXXZKDrw');
 Vue.use(VueGoogleMaps, {
   load : {
     key: 'AIzaSyB99RnGMyLlfO33OUPvru5HRu4JXXZKDrw',
