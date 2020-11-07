@@ -38,4 +38,4 @@ Cette application a été réalisée en javascript avec VueJS.
     - la balise gmap-marker qui permet d'ajouter des repairs sur la map
     Dans cette application cette map affiche un repairs qui correspond à la position géographique du restaurant.
 
-- Lorsqu'on régle le nombre de restaurant par page un "md-model-spiner" change d'affichage on fonction du nombre de restaurant par page sélectionné.
+- Lorsqu'on régle le nombre de restaurant par page, un "md-model-spiner" change d'affichage en fonction du nombre de restaurant par page sélectionné.
