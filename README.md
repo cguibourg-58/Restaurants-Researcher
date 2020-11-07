@@ -31,11 +31,11 @@ Cette application a été réalisée en javascript avec VueJS.
     /!\ Suivant la taille de l'écran la md-card qui gère l'affichage de la liste est affiché en dessous. 
     A propos md-card est fourni par la librairie VueMaterial.
 
-- Pour afficher les données détaillées, nous passons par un routeur (routes.js), qui prend en paramètre l'identifiant du restaurant, et qui nous envoie sur une vue RestaurantDetail qui fait un nouvel appel vers l'API pour avoir les données détaillées du restaurant en passant l'identifiant en paramètre dans l'appel.
+- Pour afficher les données détaillées, nous passons par un routeur (routes.js), qui prend en paramètre l'identifiant du restaurant, et qui envoie sur une vue RestaurantDetail qui fait un nouvel appel vers l'API pour avoir les données détaillées du restaurant en passant l'identifiant en paramètre de l'appel.
 
-- La map (Google Map) est gérée avec vue-google-maps qui nous permet de réaliser les choses suivantes :
-    - la balise gmap-map qui permet de déterminer la position de la map.
-    - la balise gmap-marker qui permet d'ajouter des repairs sur la map.
-    Dans cette application cette map affiche un repairs qui correspond à la position géographique du restaurant.
+- La map (Google Map) est gérée avec vue-google-maps, avec les fonctionnalités suivantes :
+    - la balise gmap-map qui permet d'afficher la map et de centrer la map sur une position donnée.
+    - la balise gmap-marker qui permet d'ajouter des repères sur la map.
+Dans cette application cette map affiche un repairs qui correspond à la position géographique du restaurant.
 
 - Lorsqu'on régle le nombre de restaurant par page, un "md-model-spiner" change d'affichage en fonction du nombre de restaurant par page sélectionné.
